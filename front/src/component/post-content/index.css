@@ -1,0 +1,21 @@
+.post-content{
+display: flex;
+gap: 12px;
+
+}
+
+.post-content__username{
+font-weight:bold;
+font-size: 14px;
+color:black;
+}
+
+.post-content__date{
+font-size: 14px;
+color:grey;
+
+}
+.post-content__text{
+font-size: 14px;
+color: black;
+}
