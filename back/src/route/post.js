@@ -38,7 +38,7 @@ const newPost = Post.create(username, text, post)
       })
 } catch (e){
 return res.status(400).json({
-message:e.message,
+message: e.message,
 })
 }
 
@@ -61,7 +61,7 @@ router.get('/post-list', function (req, res){
         date,
         })),
       })
-  }catch(e){
+  } catch (e) {
       return res.status(400).json({
       message: e.message,
       })
@@ -98,7 +98,7 @@ router.get('/post-item', function (req, res){
               })),
             },
           })
- }catch(e){
+ } catch (e){
      return res.status(400).json({
      message: e.message,
      })

@@ -3,7 +3,7 @@ static #list= []
 static #count = 1
 
 constructor (username, text){
-this.id = Post.count++
+this.id = Post.#count++
 
 this.username = username
 this.text = text
@@ -29,10 +29,10 @@ const newPost = new Post(username,text)
 }
 
 static getById(id){
-  return(this.#list.find((item) => item.id === Number(id))||null)
+  return(this.#list.find((item) => item.id === Number(id)) || null)
 }
 
-static getList = ()=>this.#list
+static getList = () => this.#list
 
 }
 
