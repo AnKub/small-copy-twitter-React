@@ -38,7 +38,9 @@ Express: Web framework
 Handlebars: Templating engine
 Sass: CSS preprocessor
 Dependencies:
-json{
+json
+Копировать код
+{
   "express": "^4.16.1",
   "express-handlebars": "^6.0.7",
   "sass": "^1.32.8",
@@ -49,8 +51,7 @@ json{
 Available Commands:
 npm run dev: Runs the server with Nodemon (live reloading)
 npm start: Starts the server
-
-###🚀Project Highlights:
+🚀 Project Highlights:
 Frontend: React-based, responsive design for posting and viewing messages.
 Backend: Express with dynamic templating (Handlebars) and modular styling (Sass).
 Live Reload: Development with automatic updates using Nodemon and Webpack.
