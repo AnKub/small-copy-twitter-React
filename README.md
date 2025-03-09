@@ -1,23 +1,28 @@
-Project Overview: Simplified Twitter-like Application
-The goal of this project was to create a simplified version of Twitter, focusing on core functionalities such as user authentication, posting messages, and viewing posts from others. The project consists of two parts: Frontend and Backend.
+# Simplified Twitter-like Application
 
-🖥️ Frontend - React Application
-The frontend is built with React, providing a dynamic and user-friendly interface. It allows users to create and view posts, similar to Twitter.
+The goal of this project was to create a **simplified version of Twitter**, focusing on core functionalities such as user authentication, posting messages, and viewing posts from others. The project consists of two parts: **Frontend** and **Backend**.
 
-Key Features:
-Responsive Design: Ensures compatibility with various screen sizes.
-User Interaction: Users can post and view messages.
-Reusable Components: Built with React components for easier maintenance.
-State Management: React hooks for dynamic data handling.
-Testing: Using Jest and React Testing Library for testing components.
-Technologies:
-React: Frontend framework
-React Router: Navigation between components
-Jest: Testing framework
-Web Vitals: Performance monitoring
-Dependencies:
-json
-Копировать код
+---
+
+### 🖥️ **Frontend - React Application**
+
+The frontend is built with **React**, providing a dynamic and user-friendly interface. It allows users to create and view posts, similar to Twitter.
+
+#### **Key Features:**
+- **Responsive Design**: Ensures compatibility with various screen sizes.
+- **User Interaction**: Users can post and view messages.
+- **Reusable Components**: Built with React components for easier maintenance.
+- **State Management**: React hooks for dynamic data handling.
+- **Testing**: Using **Jest** and **React Testing Library** for testing components.
+
+#### **Technologies:**
+- **React**: Frontend framework
+- **React Router**: Navigation between components
+- **Jest**: Testing framework
+- **Web Vitals**: Performance monitoring
+
+#### **Dependencies:**
+```json
 {
   "name": "react-app",
   "version": "0.1.0",
