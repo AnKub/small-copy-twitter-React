@@ -36,11 +36,14 @@ The frontend is built with **React**, providing a dynamic and user-friendly inte
     "web-vitals": "^2.1.4"
   }
 }
+
 Scripts:
 start: Starts the development server.
 build: Builds the app for production.
 test: Runs Jest tests.
 eject: Ejects from the create-react-app setup.
+
+
 💻 Backend - Express Application with Handlebars and Sass
 The backend uses Node.js with Express, handling routes and user authentication. It also uses Handlebars for templating and Sass for styling.
 
