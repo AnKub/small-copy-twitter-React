@@ -1,94 +1,57 @@
 # Simplified Twitter-like Application
 
-The goal of this project was to create a **simplified version of Twitter**, focusing on core functionalities such as user authentication, posting messages, and viewing posts from others. The project consists of two parts: **Frontend** and **Backend**.
+A simplified version of **Twitter**, focusing on basic functionalities such as user authentication, posting messages, and viewing posts.
 
 ---
 
 ### 🖥️ **Frontend - React Application**
 
-The frontend is built with **React**, providing a dynamic and user-friendly interface. It allows users to create and view posts, similar to Twitter.
-
-#### **Key Features:**
-- **Responsive Design**: Ensures compatibility with various screen sizes.
-- **User Interaction**: Users can post and view messages.
-- **Reusable Components**: Built with React components for easier maintenance.
-- **State Management**: React hooks for dynamic data handling.
-- **Testing**: Using **Jest** and **React Testing Library** for testing components.
+Built with **React** for dynamic, interactive user interfaces.
 
 #### **Technologies:**
 - **React**: Frontend framework
-- **React Router**: Navigation between components
-- **Jest**: Testing framework
+- **React Router**: Navigation between pages
+- **Jest**: Testing
 - **Web Vitals**: Performance monitoring
 
 #### **Dependencies:**
 ```json
 {
-  "name": "react-app",
-  "version": "0.1.0",
-  "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "web-vitals": "^2.1.4"
-  }
+  "react": "^18.2.0",
+  "react-dom": "^18.2.0",
+  "react-scripts": "5.0.1",
+  "@testing-library/jest-dom": "^5.17.0",
+  "@testing-library/react": "^13.4.0",
+  "web-vitals": "^2.1.4"
 }
+Available Commands:
+npm start: Runs the development server
+npm run build: Builds the app for production
+npm test: Runs tests
+npm run eject: Ejects from create-react-app
+💻 Backend - Node.js with Express & Handlebars
+Backend built using Express with Handlebars for templating and Sass for styles.
 
-Scripts:
-start: Starts the development server.
-build: Builds the app for production.
-test: Runs Jest tests.
-eject: Ejects from the create-react-app setup.
-
-
-💻 Backend - Express Application with Handlebars and Sass
-The backend uses Node.js with Express, handling routes and user authentication. It also uses Handlebars for templating and Sass for styling.
-
-Key Features:
-User Authentication: Basic login functionality with cookie parsing.
-Routing: Handled by Express to navigate between pages.
-Dynamic Templating: Handlebars for rendering HTML content.
-Real-time Updates: LiveReload for automatic updates.
-Styling: Sass for modular and maintainable CSS.
 Technologies:
-Node.js: Backend JavaScript runtime
-Express: Web framework for routing and logic
-Handlebars: Templating engine for dynamic HTML
-Sass: CSS preprocessor for better styles
+Node.js: JavaScript runtime
+Express: Web framework
+Handlebars: Templating engine
+Sass: CSS preprocessor
 Dependencies:
-json
-Копировать код
-{
-  "name": "sass",
-  "version": "1.0.0",
-  "scripts": {
-    "dev": "nodemon -e js,json,css ./index.js",
-    "start": "node ./index.js"
-  },
-  "dependencies": {
-    "express": "~4.16.1",
-    "express-handlebars": "^6.0.7",
-    "sass": "^1.32.8",
-    "webpack": "^5.88.2",
-    "webpack-cli": "^4.9.2",
-    "webpack-dev-middleware": "^6.1.1",
-    "webpack-hot-middleware": "^2.25.4",
-    "cookie-parser": "~1.4.4",
-    "dotenv": "^16.0.1",
-    "morgan": "~1.9.1",
-    "nodemon": "^2.0.16",
-    "concurrently": "^8.2.0"
-  }
+json{
+  "express": "^4.16.1",
+  "express-handlebars": "^6.0.7",
+  "sass": "^1.32.8",
+  "webpack": "^5.88.2",
+  "webpack-cli": "^4.9.2",
+  "nodemon": "^2.0.16"
 }
-Scripts:
-start: Starts the server.
-dev: Runs the server with Nodemon for live reloading.
-🚀 Project Features Recap:
-Frontend: Dynamic, responsive React application for posting and viewing messages.
-Backend: Node.js and Express backend with authentication, templating, and styling.
-Real-time Development: LiveReload and Nodemon for smooth development.
-Modular Styles: Sass for better CSS structure.
-This project simulates a simplified version of Twitter, focusing on user interactions like posting and viewing messages. The frontend uses React for a dynamic UI, while the backend ensures smooth data handling with Express and dynamic templating with Handlebars.
+Available Commands:
+npm run dev: Runs the server with Nodemon (live reloading)
+npm start: Starts the server
+
+###🚀Project Highlights:
+Frontend: React-based, responsive design for posting and viewing messages.
+Backend: Express with dynamic templating (Handlebars) and modular styling (Sass).
+Live Reload: Development with automatic updates using Nodemon and Webpack.
+This project simulates a simplified version of Twitter with core functionalities. The frontend is built in React, while the backend uses Express for routing, Handlebars for templating, and Sass for modular styling.
