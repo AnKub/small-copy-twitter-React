@@ -1,5 +1,5 @@
 
-# Simplified Twitter-like Application
+# Simplified Twitter-like App
 
 A simplified version of **Twitter**, focusing on basic functionalities such as user authentication, posting messages, and viewing posts.
 
